@@ -3,7 +3,7 @@
  */
 .alertify,
 .alertify-log {
-	font-family: Helvetica Nueue, Helvetica, Arial, SansSerif;
+	font-family: sans-serif;
 }
 .alertify {
 	background: #FFF;
@@ -66,26 +66,16 @@
 .alertify-log {
 	background: #1F1F1F;
 	background: rgba(0,0,0,.9);
-	padding: 15px 20px;
-	border-radius: 3px;
+	padding: 15px;
+	border-radius: 4px;
 	color: #FFF;
-    font-size: 16px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    max-width: 300px;
-    min-height: 48px;
-}
-
-@media (max-width: 480px) {
-    .alertify-log {
-        margin-right: auto;
-        margin-bottom: 10px;
-        margin-left: auto;
-    }
+	text-shadow: -1px -1px 0 rgba(0,0,0,.5);
 }
 	.alertify-log-error {
-		background-color: #F33333;
+		background: #FE1A00;
+		background: rgba(254,26,0,.9);
 	}
 	.alertify-log-success {
-		background-color: #3BBC4A;
+		background: #5CB811;
+		background: rgba(92,184,17,.9);
 	}

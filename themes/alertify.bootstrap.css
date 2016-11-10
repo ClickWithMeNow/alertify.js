@@ -4,7 +4,7 @@
  */
 .alertify,
 .alertify-log {
-    font-family: Helvetica Nueue, Helvetica, Arial, SansSerif;
+	font-family: sans-serif;
 }
 .alertify {
 	background: #FFF;
@@ -118,12 +118,14 @@
 	color: #3A8ABF;
 	text-shadow: 0 1px 0 rgba(255,255,255,.5);
 	border: 1px solid #BCE8F1;
-    font-size: 16px;
-
 }
 	.alertify-log-error {
-        background-color: #F33333;
+		color: #B94A48;
+		background: #F2DEDE;
+		border: 1px solid #EED3D7;
 	}
 	.alertify-log-success {
-        background-color: #3BBC4A;
+		color: #468847;
+		background: #DFF0D8;
+		border: 1px solid #D6E9C6;
 	}
